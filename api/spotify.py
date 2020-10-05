@@ -10,7 +10,7 @@ from flask import Flask, Response, jsonify, render_template
 load_dotenv(find_dotenv())
 
 # Spotify:
-#   user-read-currently-playing
+#   user-read-currently-playingg
 #   user-read-recently-played
 SPOTIFY_CLIENT_ID = os.getenv("SPOTIFY_CLIENT_ID")
 SPOTIFY_SECRET_ID = os.getenv("SPOTIFY_SECRET_ID")
